@@ -1,0 +1,241 @@
+/* 
+  Localizable.strings
+  RunCat
+
+  Created by Brian Chiang on 2023/09/19.
+  Copyright © 2023 Brian Chiang. All rights reserved.
+*/
+
+// ★★★ Menu ★★★
+"systemInfo" = "系統狀態";
+"runner" = "Runner";
+"settings" = "設定…";
+"runnersStore" = "Runners 商店…";
+"selfMadeRunners" = "自訂 Runners…";
+"activityMonitor" = "顯示活動監視器…";
+"help" = "幫助";
+"aboutApp" = "關於 RunCat";
+"reportAnIssue" = "回報錯誤";
+"terminateApp" = "結束 RunCat";
+"debug" = "Debug";
+"debugSleep" = "Debug 睡眠";
+"debugWakeUp" = "Debug 喚醒";
+
+// ★★★ System Info ★★★
+// CPU
+"cpu" = "CPU: %4.1f%%";
+"system" = "系統: %4.1f%%";
+"user" = "使用者: %4.1f%%";
+"idle" = "閒置: %4.1f%%";
+
+// Memory
+"memory" = "記憶體: %4.1f%%";
+"pressure" = "Pressure: %4.1f%%";
+"app" = "App: %4.1f GB";
+"wired" = "Wired: %4.1f GB";
+"compressed" = "已壓縮: %4.1f GB";
+
+// Battery
+"batteryIsNotInstalled" = "電池: 未安裝";
+"battery" = "電量: %5.1f%%";
+"powerSource" = "電力來源: %@";
+"health" = "電池健康度: %5.1f%%";
+"maxCapacity" = "最大容量: %5.1f%%";
+"cycle" = "充放電回数: %d";
+"temperature" = "溫度: %4.1f°C";
+
+// Storage
+"storage" = "磁碟: %4.1f%% used";
+
+// Network
+"network" = "網路: %@";
+"noConnection" = "未連線";
+"localIp" = "本地 IP: %@";
+"upload" = "上傳: %@";
+"download" = "下載: %@";
+"unknown" = "未知";
+
+// ★★★ Help ★★★
+"howToRegister" = "如何自訂 runners";
+"faq" = "常見問題";
+
+// ★★★ About ★★★
+"support" = "支援頁面\n";
+"queryLang" = "%@?lang=zh-Hant";
+
+// ★★★ Mail ★★★
+"issueReport" = "問題回報";
+"environment" = "# 環境\n- %@: 版本 %@\n- macOS: %@\n";
+"whatYouTried" = "# 您嘗試過的操作\n- 重啟 App: 是/否\n- 在 Runners 商店還原: 是/否\n";
+"shortDescription" = "# 簡要描述\n\n";
+"reproduceIssue" = "# 復現問題的步驟\n\n";
+"expectedResult" = "# 預期結果\n\n";
+
+// ★★★ Settings ★★★
+// General
+"generalTab" = "一般";
+"generalWrapText" = "啟動:";
+"runner:" = "Runner:";
+"invertSpeed" = "逆轉速度";
+"flipHorizontally" = "水平翻轉";
+"useAccentColor" = "使用系統強調顏色";
+"selectAutomatically" = "每10分鐘隨機自動選擇";
+"excludingColoredRunners" = "不包括彩色的 runners";
+"stopRunner" = "停止 runner";
+"stopRunnerTitle" = "您確定要停止 runner 嗎?";
+"stopRunnerMessage" = "如果您停止 runner, 這個 App 的獨特性將遺失.";
+"changedMyMind" = "我改變主意了";
+"stop" = "停止 runner";
+"launch:" = "啟動:";
+"launchAtLogin" = "登入時自動啟動 RunCat.";
+
+// System Info
+"systemInfoTab" = "系統訊息";
+"systemInfoWrapText" = "記憶體效能:";
+"indicator:" = "指示器:";
+"useShortForm" = "使用簡易圖示";
+"cpuUsage:" = "CPU 使用率:";
+"memoryPerformance:" = "記憶體效能:";
+"batteryState:" = "電池狀態:";
+"storageCapacity:" = "磁碟容量:";
+"networkConnection:" = "網路連線:";
+"activate" = "啟用";
+"showInTheMenuBar" = "在選單列中顯示";
+
+"unit:" = "單位:";
+"percentageUnit" = "百分比";
+"availableUnit" = "可用容量";
+"usedUnit" = "已用容量";
+
+// ★★★ Runners Store ★★★
+"runnersStoreTitle" = "Runners 商店";
+"restoreTitle" = "從歷史記錄還原";
+"restore" = "還原";
+"purchase" = "購買";
+"productNotFound" = "找不到此產品.";
+"productNotFoundSuggestion" = "在連接到網路時重啟 App.";
+"productUnavailable" = "此產品不可用.";
+"purchaseNotAllowed" = "不可購買.";
+"purchaseNotAllowedSuggestion" = "檢查您的 Apple ID 付款設定.";
+"userCancelled" = "購買已取消.";
+"pending" = "購買待處理.";
+"failedVerification" = "無效的交易簽署.";
+"unknownError" = "發生未知錯誤.";
+
+// ★★★ Self-Made Runners ★★★
+"selfMadeRunnersTitle" = "自訂 Runners";
+"selfMadeRunnersWrapText" = "必要條件:";
+"registeredRunners:" = "已登錄的 Runners:";
+"runnerName:" = "Runner 名稱:";
+"color:" = "顏色:";
+"useOriginalColor" = "使用預設顏色";
+"frames:" = "幀數:";
+"preconditions:" = "必要條件:";
+"formatPrecondition" = "1. 格式: PNG";
+"heightPrecondition" = "2. 高度: 36px";
+"widthPrecondition" = "3. 寬度: 10~100px";
+"preview:" = "預覽:";
+"register" = "登錄";
+"toRegister" = "您必須在 Runners 商店購買此功能才能登錄.";
+"registerErrorTitle" = "登錄錯誤";
+"conflictName" = "此 runner 名稱已被使用.";
+"violatePrecondition" = "加載的圖片違反了某些必要條件.";
+"violateUpperLimit" = "幀數已達上限.";
+
+// ★★★ Runner ★★★
+// Runner Category
+"defaultCategory" = "預設 runners";
+"animalCategory" = "動物類 runners";
+"inanimateCategory" = "非動物類 runners";
+"seasonalCategory" = "季節性 runners";
+"specialCategory" = "特殊色彩 runners (開發者支援)";
+"recommendedCategory" = "推薦項目";
+
+// Runner Name
+"cat"            = "Cat α";
+"b.cat"          = "Cat β";
+"c.cat"          = "Cat γ";
+"tail.cat"       = "Cat Tail";
+"cat.nyan.mock"  = "Mock Nyan Cat";
+"parrot"         = "Parrot";
+"human"          = "Human";
+"up.push"        = "Push-Up";
+"up.sit"         = "Sit-Up";
+"duck.rubber"    = "Rubber Duck";
+"city"           = "City";
+"sausage"        = "Sausage";
+"dots"           = "Dots";
+"reactor"        = "Reactor";
+"slime"          = "Slime";
+"fishman"        = "Fish-Man";
+"sheep"          = "Sheep";
+"sushi.rotating" = "Rotating Sushi";
+"people.party"   = "Party People";
+"dogeza"         = "Japanese Apology";
+"triforce"       = "Power, Wisdom, Courage";
+
+"cheetah"       = "Cheetah";
+"dog"           = "Dog";
+"puppy"         = "Puppy";
+"rabbit"        = "Rabbit";
+"frog"          = "Frog";
+"bird"          = "Bird";
+"penguin"       = "Penguin";
+"dolphin"       = "Dolphin";
+"dragon"        = "Dragon";
+"owl"           = "Owl";
+"dinosaur"      = "Dinosaur";
+"terrier"       = "Terrier";
+"hedgehog"      = "Hedgehog";
+"horse"         = "Horse";
+"penguin2"      = "Penguin 2";
+"wheel.hamster" = "Hamster Wheel";
+"octopus"       = "Octopus";
+"chameleon"     = "Chameleon";
+"chicken"       = "Chicken";
+"mouse"         = "Mouse";
+"pig"           = "Pig";
+"fox"           = "Fox";
+"whale"         = "Whale";
+"otter"         = "Otter";
+"squirrel"      = "Squirrel";
+"butterfly"     = "Butterfly";
+"greyhound"     = "Greyhound";
+"corgi.welsh"   = "Welsh Corgi";
+
+"cogwheel"         = "Cogwheel";
+"bonfire"          = "Bonfire";
+"drop"             = "Drop";
+"rocket"           = "Rocket";
+"pendulum"         = "Pendulum";
+"cradle"           = "Newton's Cradle";
+"curve.sine"       = "Sine Curve";
+"pulse"            = "Pulse";
+"coffee"           = "Coffee";
+"locomotive.steam" = "Steam Locomotive";
+"drink.tapioca"    = "Tapioca Drink";
+"frypan"           = "Frypan";
+"factory"          = "Factory";
+"engine"           = "Engine";
+"earth"            = "Earth";
+
+"sleigh.reindeer"   = "Reindeer & Sleigh";
+"snowman"           = "Snowman";
+"chime.wind"        = "Wind Chime";
+"sparkler"          = "Sparkler";
+"lantern.o.jack"    = "Jack O' Lantern";
+"ghost"             = "Ghost";
+"mochi"             = "Mochi";
+
+"cat.golden"        = "Golden Cat";
+"cat.cluster.metal" = "Metal Cluster Cat";
+"cat.flash"         = "Flash Cat";
+"neko.maneki"       = "Maneki Neko";
+"sushi"             = "Sushi";
+"cat.gaming"        = "Gaming Cat";
+"parrot.party"      = "Party Parrot";
+"uhooi"             = "Uhooi";
+"entaku"            = "Entaku";
+
+"runners.all"       = "解鎖所有 Runners";
+"made.self"         = "自訂 Runner";
